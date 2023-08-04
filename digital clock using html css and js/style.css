@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    display: flex;
+    /* color: aqua; */
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background: url(nature\ pic.jpg);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* background-repeat: no-repeat; */
+    background-size: contain;
+    overflow: hidden;
+
+}
+
+h2{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+    color: rgb(42, 6, 78);
+
+}
+.clock{
+    display: flex;
+    /* flex-direction: vertical; */
+}
+.clock div{
+    margin: 7px;
+    position: relative;
+}
+.clock span{
+    width: 100px;
+    height: 80px;
+    background-color: slateblue;
+    opacity: 0.8;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgb(0,0,0,0.3);
+}
+.clock .text{
+    height: 30px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: darkblue;
+    opacity: 80%;
+}
+.clock #ampm{
+    bottom: 0;
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    background-color: green;
+}
