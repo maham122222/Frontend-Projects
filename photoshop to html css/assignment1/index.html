@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"  media="screen and (max-width:1250)"  href="phone.css">
+    <style> @media screen and (max-width: 1100px) {
+        .boxes{
+            height: 55em;
+            flex-direction: column;
+            left: 268px;
+            top: -60px;
+
+        }
+        .box1{
+            width: 257px;
+            height: 270px;
+
+        }
+        .box2{
+            width: 257px;
+            height: 270px;
+            
+        }
+        .box3{
+            width: 257px;
+            height: 270px;
+            
+        }
+        .mainPageWord{
+            left: 273px;
+            font-size: 14px;
+
+        }
+        .mainPageWord2{
+            top: 65px;
+            left: 25em;
+            font-size: 11px;
+            /* text-align: center; */
+        }
+        .button1{
+            top: 93px;
+            left: 384px;
+            width: -5.5em;
+            font-size: 10px;
+            height: 2.7em;
+            text-align: right;
+        }
+        .button2{
+            top: 93px;
+            left: 394px;
+            width: -5.5em;
+            font-size: 10px;
+            height: 2.7em;
+            text-align: right;
+        }
+        .services{
+            position: relative;
+            right: 13em;
+        }
+        
+         .otherservices1{
+            width: 112%;
+            position: relative;
+            right: 13em;
+        }
+        .otherservices2{
+            width: 112%;
+            position: relative;
+            right: 13em;
+        }
+        .detail{
+            width: 114%;
+            left: -9em;
+        }
+        .rules{
+            width: 113%;
+            left: -7em;
+        }
+        .detailbusiness{
+            left: 37em;
+        }
+        .trust{
+            width: 90%;
+            left: -8em;
+        }
+        .vedio img{
+            width: 24em;
+            left: -90;
+        }
+        .black{
+            width: 100%;
+            left: 0em;
+        }
+        .clients{
+            left: 27em;
+        }
+        .white{
+            left: -2em;
+            width: 102%;
+        }
+        .bigform{
+            position: relative;
+            right: 6em;
+        }
+        .formlast{
+            left: 27em;
+        }
+    }
+    
+    @media screen and (max-width:320px) {
+        .navbar {
+    padding-right: 10px;
+}
+.landingPicture {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(images/annie-spratt-FSFfEQkd1sc-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+    width: 320px;
+    position: relative;
+
+}
+.navbar li {
+    float: right;
+    padding: 0px;
+    list-style: none;
+}
+.Kallyas{
+    display: inline;
+    float: left;
+    padding: 10px;
+    color: white;
+    position: relative;
+    margin-top: 15px;
+    margin-left:-30px ;
+    left: 40px;
+    bottom: 55px;
+    font-size: 10px;
+}
+ a:hover{
+    /* background-color: hotpink; */
+    text-decoration: underline;
+    border-bottom: 2px solid rgb(230, 24, 66);
+ }
+
+.navbar li a {
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 8px;
+    padding: 5px;
+    color: white;
+}
+
+.navbar ul {
+    overflow: auto;
+
+}
+        
+    }     
+        /* @media screen and (max-width:1280px) {
+
+            .mainPageWord{
+                left: 13em;
+
+            }
+            .mainPageWord2{
+                left: 35em;
+            }
+            .button1{
+                left: 40em;
+            }
+            .button2{
+                left: 43em;
+            }
+            .boxes{
+                left: 20em;
+            }
+            .services{
+                position: relative;
+                left: 9.5em;
+            }
+            .otherservices1{
+                position: relative;
+                left: 10em;
+
+            }
+            .otherservices2{
+                position: relative;
+                left: 10em;
+            }
+            .brand4{
+                left: -25em;
+                top: 9em;
+            }
+            .bigform{
+                position: relative;
+                left: 12em;
+            }
+
+        } */
+        /* @media (max-width:2480px){
+            .mainPageWord{
+                left: 30em;
+
+            }
+            .mainPageWord2{
+                left: 60em;
+            }
+            .button1{
+                left: 70em;
+            }
+            .button2{
+                left: 73em;
+            }
+            .boxes{
+                left: 45em;
+            }
+            .services{
+                position: relative;
+                left: 33em;
+            }
+            .otherservices1{
+                position: relative;
+                left: 33em;
+
+            }
+            .otherservices2{
+                position: relative;
+                left: 33em;
+            }
+            .trust{
+                position: relative;
+                left: 31em;
+            }
+            .brand4{
+                left: -24em;
+                top: 10em;
+            }
+            .clients{
+                left: 73em;
+            }
+            .brandname{
+                position: relative;
+                left: 28em;
+            }
+            .form{
+                left: 84em;
+            }
+            .project{
+                left: 46em;
+            }
+            .address{
+                left: -7em;
+            }
+            .formlast{
+                left: 93.5em;
+            }
+            .news{
+                left: 137em;
+            }
+            .lastpara{
+                left: 143em;
+            }
+
+        } */
+
+
+      
+</style>
+</head>
+
+
+<body>
+   
+
+
+    <div class="container" id="container1">
+
+        <div class="landingPicture">
+            <div class="navbar">
+
+
+
+                <ul>
+                    <li> <a href="#">Contact</a> </li>
+                    <li> <a href="#">Features</a> </li>
+                    <li> <a href="#">About us</a> </li>
+                    <li> <a href="#">Work</a> </li>
+                    <li> <a href="#">Services</a> </li>
+                    <li> <a href="#">Home</a> </li>
+
+                </ul>
+
+
+            </div>
+
+            <div class="Kallyas">
+
+                <h2>Kallyas<span class="dot">.</span></h2>
+
+
+
+            </div>
+
+            <div class="mainPageWord">
+                <h2>Helping Business and Companies</h2>
+                <h2> Innovate Transform and Lead</h2>
+            </div>
+
+            <div class="mainPageWord2">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor ullam<br> debitis impedit, commodi
+                    soluta deleniti blanditiis reprehenderit<br> facere
+                    ipsum eos accusantium <br></p>
+            </div>
+            <button class="button1">Start now</button>
+            <button class="button2">Our services</button>
+
+
+        </div>
+        <div class="boxes">
+            <div class="box1">
+                <img src="images/template (1).png" alt="">
+                <h5>Content Concept and Strategy</h5>
+                <hr width=40px>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi possimus quis numquam, magni
+                    inventore ducimus.</p>
+
+            </div>
+            <div class="box2">
+                <img src="images/design.png" alt="">
+                <h5>Design and Concepts</h5>
+                <hr width=40px>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi possimus quis numquam, magni
+                    inventore ducimus.</p>
+            </div>
+            <div class="box3">
+                <img src="images/seo.png" alt="">
+                <h5>SEO & Marketing solutions</h5>
+                <hr width=40px>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi possimus quis numquam, magni
+                    inventore ducimus.</p>
+            </div>
+        </div>
+
+        <div class="services">
+
+            <h3>SERVICES</h3>
+            <span class="services1">Best Services for</span>
+            <span class="services2">Visual Perfection</span>
+
+            <br>
+            <br>
+            <br>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, sapiente? Lorem ipsum dolor sit amet,
+                consectetur adipisicing elit. Non, aperiam!</p>
+
+
+        </div>
+
+        <div class="otherservices1">
+            <div class="strategy">
+                <img src="images/strategy.png" alt="">
+                <h5>Strategy</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, quidem?</p>
+            </div>
+
+            <div class="marketing">
+                <img src="images/marketing.png" alt="">
+                <h5>Marketing</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, quidem?</p>
+            </div>
+
+            <div class="technology">
+                <img src="images/technology.png" alt="">
+                <h5>Technology</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, quidem?</p>
+            </div>
+
+        </div>
+
+
+        <div class="otherservices2">
+            <div class="ecommerce">
+                <img src="images/ecommerce.png" alt="">
+                <h5>Ecommerce</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, quidem?</p>
+            </div>
+
+            <div class="branding">
+                <img src="images/branding.png" alt="">
+                <h5>Branding</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, quidem?</p>
+            </div>
+
+            <div class="seo">
+                <img src="images/seo (1).png" alt="">
+                <h5>Seo Identity</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, quidem?</p>
+            </div>
+
+        </div>
+
+        <div class="plan">
+
+            <div class="detail">
+
+                <h3>Detailed business plans & the most effective results</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio soluta voluptas ipsam, quae
+                    excepturi, aliquam commodi hic vel nobis ut quod ipsa quidem doloribus autem itaque veniam a sint.
+                    Inventore. Lorem ipsum dolor sit amet.</p>
+                <button>Start Now</button>
+
+                <div class="twoboxes">
+                    <div class="colour"><img src="images/pink room.jpg" alt=""></div>
+
+                    <div class="pinked"></div>
+
+                </div>
+
+            </div>
+            <div class="rules">
+                <div class="type1">
+                    <div class="elegant">
+                        <h5>01. Elegant/unique design</h5>
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem unde voluptatem ad aperiam,
+                            culpa a.</p>
+                    </div>
+                    <div class="true">
+                        <h5>02. True responsiveness</h5>
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem unde voluptatem ad aperiam,
+                            culpa a.</p>
+                    </div>
+                </div>
+                <div class="type2">
+                    <div class="different">
+                        <h5>03. Different layout type</h5>
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem unde voluptatem ad aperiam,
+                            culpa a.</p>
+                    </div>
+                    <div class="make">
+                        <h5>04. Make it simple</h5>
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem unde voluptatem ad aperiam,
+                            culpa a.</p>
+                    </div>
+                </div>
+
+                <div class="detailbusiness">
+                    <h3>We provide high quality and cost effective services.</h3>
+                    <p class="para1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio soluta voluptas
+                        ipsam, quae
+                        excepturi, aliquam commodi hic vel nobis ut quod ipsa quidem doloribus autem itaque veniam a
+                        sint.
+                        Inventor</p>
+                    <p class="para2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, sed! Error
+                        exercitationem similique labore esse.</p>
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+        <!-- second nav bar -->
+
+        <div class="navigation2">
+            <nav class="nav2">
+                <ul>
+                    <li> <a href="#">PHOTOGRAPHY</a> </li>
+                    <li> <a href="#">DESIGN</a> </li>
+                    <li> <a href="#">BRANDING</a> </li>
+                    <li> <a href="#">ADVERTISING</a> </li>
+                    <li> <a href="#">WEB</a> </li>
+                    <li> <a href="#">ALL</a> </li>
+
+                </ul>
+            </nav>
+        </div>
+
+        <!-- pictures after nav bar -->
+        <div class="pictures">
+            <div class="pics1">
+                <img class="img1" src="images/gary-butterfield-HJ6g9w4ajDw-unsplash (1).jpg" alt="">
+                <img class="img2" src="images/rafal-jedrzejek-ogrGCU5uSxc-unsplash.jpg" alt="">
+                <img class="img3" src="images/danilo-capece-NoVnXXmDNi0-unsplash.jpg" alt="">
+                <img class="img4" src="images/markus-krisetya-Vkp9wg-VAsQ-unsplash.jpg" alt="">
+            </div>
+            <div class="pics2">
+                <img class="img5" src="images/nik-shuliahin-C2CYPENZ7LA-unsplash.jpg" alt="">
+                <img class="img6" src="images/johanne-pold-jacobsen-1A5hSvPZjMc-unsplash.jpg" alt="">
+                <img class="img7" src="images/david-hurley-YBUj1dkt4Do-unsplash.jpg" alt="">
+                <img class="img8" src="images/kristian-egelund-wwqRpSNBPq4-unsplash.jpg" alt="">
+
+
+            </div>
+        </div>
+
+        <div class="trusted">
+            <div class="trust">
+                <h3>We are trusted by more than 3600+ clients.</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio soluta voluptas ipsam, quae
+                    excepturi, aliquam commodi hic vel nobis ut quod ipsa quidem doloribus autem itaque veniam a sint.
+                    Inventore. Lorem ipsum dolor sit amet.</p>
+                <button>Learn More</button>
+
+            </div>
+            <div class="vedio">
+                <img src="images/christopher-gower-m_HRfLhgABo-unsplash.jpg" alt="">
+            </div>
+        </div>
+        <div class="blackwhite">
+            <div class="black">
+                <div class="clients">
+                    <h3>Clients with projects proudly crafted by our agency</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus sed natus laudantium sunt
+                        facere asperiores! Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet
+                        consectetur, adipisicing elit. Perspiciatis, quos. </p>
+                </div>
+                <div class="brandname">
+
+                    <img class="brand1" src="images/brand1.png" alt="">
+                    <img class="brand2" src="images/brand2.png" alt="">
+
+                    <img class="brand3" src="images/brand3.png" alt="">
+                    <img class="brand4" src="images/brand4.png" alt="">
+                </div>
+            </div>
+            <div class="white">
+                <div class="beautiful">
+                    <h3>Beautiful Handcrafted design for Website</h3>
+                </div>
+                <div class="paragraph">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio soluta voluptas ipsam, quae
+                        excepturod ipsa quidem doloribus autem amet tenetur maxime asperiores cupiditate?</p>
+                </div>
+
+                <div class="flextwo">
+                    <div class="secured"><img src="images/data-security.png" alt="">
+                        <h5>Secured database</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, quidem? Lorem ipsum dolor sit
+                            amet.</p>
+                    </div>
+                    <div class="modern"><img src="images/framework.png" alt="">
+                        <h5>Modern Framework</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, quidem? Lorem ipsum dolor sit
+                            amet.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="bigform">
+            <div class="project">
+                <h3>Want to have a professional project? Let's talk about it</h3>
+                <p class="para3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio soluta voluptas ipsam,
+                    quae
+                    excepturi, aliquam commodi hic vel nobis ut quod ipsa quidem doloribus autem itaque veniam a sint.
+                    Inventor</p>
+                <p class="para4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, sed! Error
+                    exercitationem similique labore esse.</p>
+
+            </div>
+            <!-- form -->
+            <div class="form">
+                <form action="/action_page.php">
+                    <label  for="fname"></label><br>
+                    <input class="name" type="text" id="fname" name="fname" placeholder="your name"><br>
+
+                    <label for="cname"></label><br>
+                    <input class="company" type="text" id="cname" name="cname" placeholder="company name"><br>
+
+                
+                        <label for="ename"></label><br>
+                        <input class="email" type="text" id="ename" name="ename" placeholder="Email address"><br>
+
+                        <label for="sname"></label><br>
+                        <input class="service" type="text" id="sname" name="sname" placeholder="Select service"><br>
+
+                        <label for="dname"></label><br>
+                        <input class="describe" type="text" id="dname" name="dname" placeholder="Describe your Project">
+
+
+                    <!-- <input type="submit" value="Submit">  -->
+                  </form> 
+                  <!-- <input type="submit" value="Submit">  -->
+                  <!-- <button class="submitbutton">Submit</button> -->
+
+            </div>
+            
+            <!-- <button class="submitbutton">Submit</button> -->
+        </div>
+
+        <div class="divbutton"><button 
+        class="submitbutton">submit</button></div> 
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <div class="black1">
+            <div class="Kallyas2">
+                <h2>Kallyas<span class="dot2">.</span></h2>
+            </div>
+
+            <div class="contact1">Contact</div>
+            <div class="address">758 E Beechwood Lane Bay
+                ,NY 11706 youremail@address.com, +1-202-555-0158
+            </div>
+            <!-- images -->
+            <div class="images">
+                <img class="i1" src="images/facebook.png" alt="">
+                <img class="i2" src="images/instagram.png" alt="">
+                <img class="i3" src="images/linkedin.png" alt="">
+                <img class="i4" src="images/youtube.png" alt="">
+            </div>
+
+            <!-- nav3 -->
+            <div class="navigation3">
+                <nav class="nav3">
+                    <ul>
+                        <li> <a href="#">Contact</a> </li>
+                        <li> <a href="#">Features</a> </li>
+                        <li> <a href="#">About us</a> </li>
+                        <li> <a href="#">Work</a> </li>
+                        <li> <a href="#">Services</a> </li>
+                        <li> <a href="#">Home</a> </li>
+    
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="news">Subscribe to newsletter</div>
+            <div class="formlast">
+                <form action="/action_page.php">
+                    <label  for="eename"></label><br>
+                    <input class="eename" type="text" id="eename" name="eename" placeholder="your email"><br>
+                </form>
+                <div class="lastbutton">submit</div>
+
+        </div>
+        <div class="lastpara">2019 all rights are reserved by maham jamil</div>
+
+
+
+    </div>
+    </div>
+
+
+
+
+
+</body>
+
+</html>
